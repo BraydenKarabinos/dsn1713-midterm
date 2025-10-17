@@ -3,11 +3,28 @@
 /* Set custom variables here */
 
 
+:root{
+  --bs-primary-rgb: 46,71,58;
+  --bs-primary: #2e473a;
+  --bs-btn-bg: #2e473a;
+}
+
+:root {
+  --bs-success-rgb: 246,243,237;
+  --bs-success: #f6f3ed;
+}
 
 
+.brand-logo {
+  max-width: 1.5rem;
+}
 
 .navbar-brand {
   color: #F6F3ED;
+}
+
+.hero-text {
+  margin-top: 10rem;
 }
 
 body {
@@ -36,6 +53,7 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px;
 }
 
 #cta .d-flex {
